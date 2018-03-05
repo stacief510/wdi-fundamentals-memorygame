@@ -30,7 +30,7 @@ nav {
 	border-bottom: 2px solid transparent;
 }
 a:hover{
-border: 2px solid white;
+	border: 2px solid white;
 }
 main{
 	width: 850px;
@@ -63,17 +63,43 @@ footer {
 	letter-spacing: .08em;
 	font-weight: 500;
 }
+button{
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 8px;
+	border-radius: 5px;
+	border: 2px dotted orange;
+}
+button:hover{
+	background-color: rgba(0,166,179,.5);
+}
+table{
+	text-align: center;
+	font-size: 40px;
+	margin-left:auto; 
+    margin-right:auto;
+	padding-bottom: 20px;
+}
+#score{
+	color: #000000;
+}
 .copyright{
 	float: left;
 }
+
 .message {
 	float: right;
 }
+
 .contact-info a {
 	font-size: 13px;
 	margin: 20px;
 	padding-top: 30px;
 }
+
 .clearfix:after {
 visibility: hidden;
 display: block;
@@ -82,6 +108,7 @@ clear: both;
 height: 0;
 font-size: 0;
 }
+
 .name {
 	color: #F15B31;
 	font-weight: 700;
